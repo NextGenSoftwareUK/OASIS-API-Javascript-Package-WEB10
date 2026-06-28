@@ -12,9 +12,9 @@ URL; everything else becomes the query string (GET/DELETE) or JSON body
 
 ## Methods
 
-| Method | HTTP | Route | Route params |
-| --- | --- | --- | --- |
-| `getSource` | GET | `v1/source` | – |
+| Method | HTTP | Route | Route params | Query params | Body |
+| --- | --- | --- | --- | --- | --- |
+| `getSource` | GET | `v1/source` | – | – | – |
 
 ## Example
 
