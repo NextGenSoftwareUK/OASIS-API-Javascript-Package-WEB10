@@ -15,7 +15,7 @@ class SourceModule {
   constructor(http) {
     this._http = http;
 
-    // get v1/source/
+    // GET v1/source/
     this.getSource = makeOperation(http, "v1/source", "GET", "");
   }
 }

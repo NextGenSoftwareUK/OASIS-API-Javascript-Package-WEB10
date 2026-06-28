@@ -2,7 +2,18 @@
   "SourceController.cs": {
     "route_prefix": "v1/source",
     "ops": {
-      "GetSource": { "verb": "get", "route": "" }
+      "GetSource": {
+        "verb": "GET",
+        "route": "",
+        "routeParams": [],
+        "queryParams": [],
+        "requestType": null,
+        "responseType": {
+          "wrapper": null,
+          "inner": "SourceReport"
+        },
+        "summary": "Returns the foundational runtime/version identity plus the live unified status across every layer built on top of it."
+      }
     }
   }
 }
