@@ -1,0 +1,8 @@
+{
+  "SourceController.cs": {
+    "route_prefix": "v1/source",
+    "ops": {
+      "GetSource": { "verb": "get", "route": "" }
+    }
+  }
+}
