@@ -1,6 +1,6 @@
 # Source — `web10.source`
 
-Source controller: [`SourceController.cs`](https://github.com/NextGenSoftwareUK/OASIS2/blob/main/WEB10/NextGenSoftware.OASIS.Web10.WebAPI/Controllers/SourceController.cs)
+Source controller: [`SourceController.cs`](https://github.com/NextGenSoftwareUK/OASIS/blob/main/WEB10/NextGenSoftware.OASIS.Web10.WebAPI/Controllers/SourceController.cs)
 Route prefix: `v1/source`
 1 operation(s).
 
