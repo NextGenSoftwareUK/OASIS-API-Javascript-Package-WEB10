@@ -7,7 +7,7 @@ const { attachGeneratedModules } = require('./modules/index');
 /**
  * Main SDK entry point. Works in Node 18+ and any modern browser.
  *
- *   const { Web10Client } = require('web10-oasis-source-api');
+ *   const { Web10Client } = require('@oasisomniverse/web10-api');
  *   const web10 = new Web10Client({ baseUrl: 'https://api.web10.oasisomniverse.one' });
  *   web10.setToken(jwtToken); // reuse a WEB4 OASIS JWT - WEB10 has no auth of its own
  *   const source = await web10.source.getSource();

@@ -1,4 +1,4 @@
-# web10-oasis-source-api
+# @oasisomniverse/web10-api
 
 Isomorphic (Node 18+ and browser) JavaScript/TypeScript-friendly client for the
 **WEB10 OASIS Source API** - the root of the OASIS stack ("the Omega that is
@@ -12,14 +12,14 @@ browser.
 ## Installation
 
 ```bash
-npm install web10-oasis-source-api
+npm install @oasisomniverse/web10-api
 ```
 
 ## Quick start
 
 ```js
-const { Web10Client } = require('web10-oasis-source-api');
-// or: import { Web10Client } from 'web10-oasis-source-api';
+const { Web10Client } = require('@oasisomniverse/web10-api');
+// or: import { Web10Client } from '@oasisomniverse/web10-api';
 
 const web10 = new Web10Client({ baseUrl: 'https://api.web10.oasisomniverse.one' });
 
