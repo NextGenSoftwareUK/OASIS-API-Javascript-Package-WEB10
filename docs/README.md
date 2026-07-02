@@ -1,4 +1,4 @@
-# WEB10 Singularity API — JavaScript SDK Reference
+﻿# WEB 10 Singularity API — JavaScript SDK Reference
 
 Generated from `endpoints.json` (extracted from the WebAPI controllers) by
 `scripts/generate-full-docs.js`. Regenerate the full pipeline after the API

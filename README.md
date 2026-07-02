@@ -1,9 +1,9 @@
-# @oasisomniverse/web10-api
+﻿# @oasisomniverse/web10-api
 
 - [@oasisomniverse/web10-api](#oasisomniverseweb10-api)
-  - [About WEB10](#about-web10)
+  - [About WEB 10](#about-web-10)
   - [About The OASIS Omniverse](#about-the-oasis-omniverse)
-  - [Benefits Of Building On The WEB10 Source API](#benefits-of-building-on-the-web10-source-api)
+  - [Benefits Of Building On The WEB 10 Source API](#benefits-of-building-on-the-web-10-source-api)
   - [WEB 10 Source API Packages](#web-10-source-api-packages)
     - [Javascript](#javascript)
     - [C#](#c)
@@ -17,21 +17,21 @@
   - [License](#license)
 
 Isomorphic (Node 18+ and browser) JavaScript/TypeScript-friendly client for the
-**WEB10 OASIS Source API** - the root of the OASIS stack ("the Omega that is
+**WEB 10 OASIS Source API** - the root of the OASIS stack ("the Omega that is
 the Alpha"), returning the foundational runtime/version identity plus a live
 unified status across every layer built on top of it, built on the OASIS
-WEB10 WebAPI.
+WEB 10 WebAPI.
 
 Zero dependencies. Wraps the global `fetch`. Works the same in Node and the
 browser.
 
-## About WEB10
+## About WEB 10
 
-> **"WEB10 = WEB0. THE OMEGA = THE ALPHA."**
+> **"WEB 10 = WEB0. THE OMEGA = THE ALPHA."**
 
-WEB10 is the foundational Source layer underlying the entire OASIS stack — not a final destination but the recognition that the stack was always a circle. It's the root identity/version endpoint that every other layer ultimately emanates from and returns to: the journey through WEB1-WEB9 is an act of remembering a ground of being that was always present.
+WEB 10 is the foundational Source layer underlying the entire OASIS stack — not a final destination but the recognition that the stack was always a circle. It's the root identity/version endpoint that every other layer ultimately emanates from and returns to: the journey through WEB1-WEB 9 is an act of remembering a ground of being that was always present.
 
-WEB10 sits beneath **[WEB4](https://www.npmjs.com/package/@oasisomniverse/web4-api)** through **[WEB9](https://www.npmjs.com/package/@oasisomniverse/web9-api)**, and is one layer of the wider **[OASIS Omniverse](https://oasisomniverse.one)** (WEB4 through WEB10).
+WEB 10 sits beneath **[WEB 4](https://www.npmjs.com/package/@oasisomniverse/web4-api)** through **[WEB 9](https://www.npmjs.com/package/@oasisomniverse/web9-api)**, and is one layer of the wider **[OASIS Omniverse](https://oasisomniverse.one)** (WEB 4 through WEB 10).
 
 ## About The OASIS Omniverse
 
@@ -39,24 +39,24 @@ The OASIS (Open Advanced Sensory Immersion System) is the universal interoperabi
 
 At its core sits one Avatar with one SSO login and one Karma reputation score that travels with you across every app, game and world built on top of it — full transparency and full control over your own data, right down to the field level.
 
-This is the foundation of the OASIS Omniverse: a network of unified layers, WEB4 (identity & unification) through WEB10 (source), each building on the one below to connect blockchains, metaverses, AI, human consciousness and beyond into a single interoperable whole.
+This is the foundation of the OASIS Omniverse: a network of unified layers, WEB 4 (identity & unification) through WEB 10 (source), each building on the one below to connect blockchains, metaverses, AI, human consciousness and beyond into a single interoperable whole.
 
 👉 See the full ecosystem at **[oasisomniverse.one](https://oasisomniverse.one)**.
 
 <a name="web10-source-benefits"></a>
 
-## Benefits Of Building On The WEB10 Source API
+## Benefits Of Building On The WEB 10 Source API
 
-- **"WEB10 = WEB0. The Omega = The Alpha" - the root identity/version endpoint the entire OASIS stack ultimately emanates from and returns to.**
-- **One call returns the foundational runtime/version identity plus a live unified status across every layer built on top of it (WEB4-WEB9).**
+- **"WEB 10 = WEB0. The Omega = The Alpha" - the root identity/version endpoint the entire OASIS stack ultimately emanates from and returns to.**
+- **One call returns the foundational runtime/version identity plus a live unified status across every layer built on top of it (WEB 4-WEB 9).**
 - **The simplest possible integration point if all you need is "is the OASIS Omniverse alive, and what version is it running."**
 - **Integrate any WEB2 or WEB3 tech into your (web)app without having to learn or worry about new tech stacks/languages.**
-- **SSO Avatar with a Karma reputation system (inherited from WEB4 - full accountability, zero crime, dark-net proof).**
+- **SSO Avatar with a Karma reputation system (inherited from WEB 4 - full accountability, zero crime, dark-net proof).**
 - **HTTP REST/gRPC/GraphQL/CLI/Native endpoints.**
 - **Write once, deploy everywhere, now and forever - the GOD Protocol/API.**
 - **Full redundancy/zero downtime - impossible to shut down. Zero lag.**
 - **Agent-centric: you own and store your own data.**
-- **The foundation the whole OASIS Omniverse (WEB4-WEB10) is built on.**
+- **The foundation the whole OASIS Omniverse (WEB 4-WEB 10) is built on.**
 
 Check out more info below:<br><br>
 [The Power Of The OASIS API](https://drive.google.com/file/d/1nnhGpXcprr6kota1Y85HDDKsBfJHN6sn/view?usp=sharing) <br>
@@ -158,8 +158,8 @@ interface OASISResponse<T = any> {
 
 ## Auth
 
-WEB10 is the foundational root layer that sits behind the same OASIS avatar
-identity as WEB4-WEB9 - it has no avatar/login endpoints of its own. Reuse a
+WEB 10 is the foundational root layer that sits behind the same OASIS avatar
+identity as WEB 4-WEB 9 - it has no avatar/login endpoints of its own. Reuse a
 JWT you've already obtained elsewhere (e.g. from `web4-oasis-api`'s
 `client.auth.login()`):
 
@@ -178,7 +178,7 @@ web10.setToken(jwtToken);
 ## Regenerating
 
 The generated module, type declarations and docs are produced from
-`endpoints.json` (extracted from the WEB10 WebAPI controller source):
+`endpoints.json` (extracted from the WEB 10 WebAPI controller source):
 
 ```bash
 npm run generate   # src/modules/*.js + src/modules/index.js
