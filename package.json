@@ -1,6 +1,6 @@
-{
+﻿{
   "name": "@oasisomniverse/web10-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publishConfig": { "access": "public" },
   "description": "Isomorphic (Node + browser) JavaScript/TypeScript-friendly client for the WEB10 OASIS Source API - the root of the OASIS stack ('the Omega that is the Alpha'), returning the foundational runtime/version identity plus a live unified status across every layer built on top of it, built on the OASIS WEB10 WebAPI.",
   "main": "index.js",
