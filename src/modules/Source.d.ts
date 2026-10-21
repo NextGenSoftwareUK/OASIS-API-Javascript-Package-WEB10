@@ -5,5 +5,5 @@ export declare class SourceModule {
   constructor(http: unknown);
 
   /** GET v1/source/ */
-  getSource(args?: Record<string, any>): Promise<OASISResponse>;
+  getSource(args?: Record<string, any>, requestOptions?: { idempotencyKey?: string }): Promise<OASISResponse>;
 }
