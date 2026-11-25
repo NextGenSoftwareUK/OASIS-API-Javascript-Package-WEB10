@@ -35,6 +35,8 @@ export declare class Web10Client {
   readonly http: HttpClient;
   readonly tokenStore: TokenStore;
   readonly source: SourceModule;
+  /** GET /health - liveness check; no token needed. */
+  health(): Promise<OASISResponse>;
   setBaseUrl(baseUrl: string): void;
   setToken(jwtToken: string, sessionExtras?: Partial<OASISSession>): void;
 }
